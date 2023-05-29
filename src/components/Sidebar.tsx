@@ -35,6 +35,8 @@ const LinkItems: Array<LinkItemProps> = [
 	{ name: 'Page 1', icon: FiTrendingUp, path: '/page1' },
 	{ name: 'Page 2', icon: FiCompass, path: '/page2' },
 	{ name: 'Favourites', icon: FiStar, path: '/' },
+  { name: 'Settings', icon: FiSettings, path: '/' },
+	{ name: 'TVM', icon: FiSettings, path: '/TVM' },
 	{ name: 'Settings', icon: FiSettings, path: '/' }
 ];
 

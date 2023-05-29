@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
+import TVMCalculator from './pages/TVMCalculator';
 
 const router = createBrowserRouter([
 	{
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
 		path: '/page2',
 		element: <Page2 />
 	},
+	{
+		path: '/TVM',
+		element: <TVMCalculator></TVMCalculator>
+	},	
 	{
 		path: '/',
 		element: <div>Hello world!</div>
