@@ -1,5 +1,4 @@
 import { Box, Flex } from "@chakra-ui/react";
-import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -12,7 +11,7 @@ function App() {
 			<Flex flex="1">
 				<Sidebar />
 				<Box p={4} flex="1">
-					<Home title="Page 1" />
+					<Home/>
 				</Box>
 			</Flex>
 			<Footer />
